@@ -1,6 +1,5 @@
-tellraw @a ["",{"text":"Successfully Disabled RandomGgames' Flood Fill","color":"gray","italic":"true"}]
-datapack disable "file/Flood Fill"
-datapack disable "file/Flood Fill.zip"
+datapack disable "file/Flood_Fill_1.17-1.0.0"
+datapack disable "file/Flood_Fill_1.17-1.0.0.zip"
 
 scoreboard objectives remove RAN.FloodFill
 kill @e[tag=RAN.FloodFill]

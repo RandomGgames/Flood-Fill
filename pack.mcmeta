@@ -1,6 +1,6 @@
 {
 	"pack": {
-		"pack_format": 7,
-		"description": "RandomGgames' Flood Fill 1.17-1.0.0"
+		"pack_format": 10,
+		"description": "A data pack that fills an area with entities for easy selection. Created by RandomGgames."
 	}
 }

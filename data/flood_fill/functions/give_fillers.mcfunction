@@ -1,6 +1,6 @@
-give @s minecraft:bat_spawn_egg{EntityTag:{id:"minecraft:bat",Tags:["RAN.FloodFill","RAN.XZ"]},display:{Name:"{\"text\":\"Flood Fill - XZ Plane\"}"}}
-give @s minecraft:bat_spawn_egg{EntityTag:{id:"minecraft:bat",Tags:["RAN.FloodFill","RAN.XY"]},display:{Name:"{\"text\":\"Flood Fill - XY Plane\"}"}}
-give @s minecraft:bat_spawn_egg{EntityTag:{id:"minecraft:bat",Tags:["RAN.FloodFill","RAN.YZ"]},display:{Name:"{\"text\":\"Flood Fill - YZ Plane\"}"}}
-give @s minecraft:bat_spawn_egg{EntityTag:{id:"minecraft:bat",Tags:["RAN.FloodFill","RAN.XYZ"]},display:{Name:"{\"text\":\"Flood Fill - All available space\"}"}}
-give @s minecraft:bat_spawn_egg{EntityTag:{id:"minecraft:bat",Tags:["RAN.FloodFill","RAN.XYZC"]},display:{Name:"{\"text\":\"Flood Fill - All available space (And Corners)\"}"}}
-give @s minecraft:bat_spawn_egg{EntityTag:{id:"minecraft:bat",Tags:["RAN.FloodFill","RAN.Pool"]},display:{Name:"{\"text\":\"Flood Fill - XZ plane and below\"}"}}
+give @s minecraft:ghast_spawn_egg{Tags:["FloodFill","XZ"],display:{Name:'{"text":"Flood Fill - XZ (Level Plane)"}'},EntityTag:{id:"minecraft:marker",Tags:["FloodFill","XZ"]}}
+give @s minecraft:ghast_spawn_egg{Tags:["FloodFill","XY"],display:{Name:'{"text":"Flood Fill - XY (East/West Spanning)"}'},EntityTag:{id:"minecraft:marker",Tags:["FloodFill","XY"]}}
+give @s minecraft:ghast_spawn_egg{Tags:["FloodFill","YZ"],display:{Name:'{"text":"Flood Fill - YZ (North/South Spanning)"}'},EntityTag:{id:"minecraft:marker",Tags:["FloodFill","YZ"]}}
+give @s minecraft:ghast_spawn_egg{Tags:["FloodFill","XYZ"],display:{Name:'{"text":"Flood Fill - XYZ (All Directions, Connecting Faces)"}'},EntityTag:{id:"minecraft:marker",Tags:["FloodFill","XYZ"]}}
+give @s minecraft:ghast_spawn_egg{Tags:["FloodFill","XYZC"],display:{Name:'{"text":"Flood Fill - XYZC (All Directions, Connecting Edges and Corners)"}'},EntityTag:{id:"minecraft:marker",Tags:["FloodFill","XYZC"]}}
+give @s minecraft:repeating_command_block{display:{Lore:['"(+NBT)"']},BlockEntityTag:{Command: "/execute at @e[type=marker,tag=FloodFill] run "}}

@@ -1,0 +1,4 @@
+execute positioned ~1 ~ ~ unless entity @e[type=minecraft:marker,tag=FloodFill,distance=...5] if block ~ ~ ~ #flood_fill:flood_into run summon minecraft:marker ~ ~ ~ {Tags:["FloodFill","XZ"]}
+execute positioned ~-1 ~ ~ unless entity @e[type=minecraft:marker,tag=FloodFill,distance=...5] if block ~ ~ ~ #flood_fill:flood_into run summon minecraft:marker ~ ~ ~ {Tags:["FloodFill","XZ"]}
+execute positioned ~ ~ ~1 unless entity @e[type=minecraft:marker,tag=FloodFill,distance=...5] if block ~ ~ ~ #flood_fill:flood_into run summon minecraft:marker ~ ~ ~ {Tags:["FloodFill","XZ"]}
+execute positioned ~ ~ ~-1 unless entity @e[type=minecraft:marker,tag=FloodFill,distance=...5] if block ~ ~ ~ #flood_fill:flood_into run summon minecraft:marker ~ ~ ~ {Tags:["FloodFill","XZ"]}

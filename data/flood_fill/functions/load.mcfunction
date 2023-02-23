@@ -1,1 +1,2 @@
-scoreboard objectives add RAN.FloodFill dummy
+scoreboard objectives add FloodFill dummy
+scoreboard objectives setdisplay sidebar FloodFill

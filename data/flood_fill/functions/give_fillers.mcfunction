@@ -3,4 +3,4 @@ give @s minecraft:ghast_spawn_egg{Tags:["FloodFill","XY"],display:{Name:'{"text"
 give @s minecraft:ghast_spawn_egg{Tags:["FloodFill","YZ"],display:{Name:'{"text":"Flood Fill - YZ (North/South Spanning)"}'},EntityTag:{id:"minecraft:marker",Tags:["FloodFill","YZ"]}}
 give @s minecraft:ghast_spawn_egg{Tags:["FloodFill","XYZ"],display:{Name:'{"text":"Flood Fill - XYZ (All Directions, Connecting Faces)"}'},EntityTag:{id:"minecraft:marker",Tags:["FloodFill","XYZ"]}}
 give @s minecraft:ghast_spawn_egg{Tags:["FloodFill","XYZC"],display:{Name:'{"text":"Flood Fill - XYZC (All Directions, Connecting Edges and Corners)"}'},EntityTag:{id:"minecraft:marker",Tags:["FloodFill","XYZC"]}}
-give @s minecraft:repeating_command_block{display:{Lore:['"(+NBT)"']},BlockEntityTag:{Command: "/execute at @e[type=marker,tag=FloodFill] run "}}
+give @s minecraft:repeating_command_block{display:{Lore:['"(+NBT)"']},BlockEntityTag:{Command: "/execute at @e[type=marker,tag=FloodFill] run ",auto:1b}}

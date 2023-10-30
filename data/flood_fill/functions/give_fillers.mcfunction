@@ -14,4 +14,4 @@ give @s minecraft:ghast_spawn_egg{Tags:["FloodFill","XYZ"],display:{Name:'{"text
 give @s minecraft:ghast_spawn_egg{Tags:["FloodFill","XYZC"],display:{Name:'{"text":"Flood Fill - XYZC (All Directions, Connecting Edges and Corners)"}'},EntityTag:{id:"minecraft:marker",Tags:["FloodFill","XYZC"]}}
 
 ##Targeted command block
-give @s minecraft:repeating_command_block{display:{Lore:['"(+NBT)"']},BlockEntityTag:{Command: "/execute at @e[type=marker,tag=FloodFill] run ",auto:1b}}
+give @s minecraft:repeating_command_block{display:{Lore:['"(+NBT)"']},BlockEntityTag:{Command: "/execute as @e[type=marker,tag=FloodFill] at @s run ",auto:1b}}

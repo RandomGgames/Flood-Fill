@@ -1,5 +1,4 @@
 ##COUNT FLOOD FILL ENTITIES
-execute unless score MaxEntities FloodFill = MaxEntities FloodFill run scoreboard players set MaxEntities FloodFill 5000
 execute store result score Count FloodFill if entity @e[type=minecraft:marker,tag=FloodFill]
 
 ##SHOW FLOOD DIRECTION WHEN HOLDING SPAWN EGGS

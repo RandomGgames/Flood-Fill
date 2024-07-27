@@ -1,6 +1,6 @@
 {
 	"pack": {
-		"pack_format": 10,
-		"description": "Fill areas with entnties to execute on. /function flood_fill:give_fillers. Created by RandomGgames."
+		"pack_format": 48,
+		"description": "Fill areas with entities to execute on. /function flood_fill:give_fillers. Created by RandomGgames."
 	}
 }
